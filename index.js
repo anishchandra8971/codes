@@ -4,8 +4,8 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
-let coins = require("./coins.json");
-let xp = require("./xp.json");
+
+
 let purple = botconfig.purple;
 let cooldown = new Set();
 let cdseconds = 5;
